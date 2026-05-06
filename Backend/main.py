@@ -11,6 +11,7 @@ app = FastAPI(
     
     docs_url="/docs",
     redoc_url="/redoc",
+    docs_url="?"
 )
 
 app.add_middleware(

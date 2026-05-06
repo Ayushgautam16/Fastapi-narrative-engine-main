@@ -20,9 +20,12 @@ class CompleteStoryNodeResponse(StoryNodeBase):
 
     class Config:
         from_attributes = True
-
+class completestorymoderesponse(storynodeBase):
+    id: int 
 
 class StoryBase(BaseModel):
+    from atributes(BaseModel):
+class completestories
     title: str
     session_id: Optional[str] = None
 
