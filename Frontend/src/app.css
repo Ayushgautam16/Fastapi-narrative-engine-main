@@ -339,3 +339,12 @@ button:hover {
   border-top: 1px solid #eee;
 }
 
+.reset-btn {
+  background-color: #f0f0f0;
+  color: #666;
+}
+
+.reset-btn:hover {
+  background-color: #e0e0e0;
+}
+
