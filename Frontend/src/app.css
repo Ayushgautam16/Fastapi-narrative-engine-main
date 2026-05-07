@@ -320,3 +320,22 @@ button:hover {
   margin-bottom: 1.5rem;
 }
 
+.ending-message {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.new-story-btn {
+  background-color: var(--accent-color);
+  padding: 0.75rem 1.5rem;
+}
+
+.story-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
