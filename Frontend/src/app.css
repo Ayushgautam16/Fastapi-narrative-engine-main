@@ -348,3 +348,24 @@ button:hover {
   background-color: #e0e0e0;
 }
 
+/* Error Message */
+.error-message {
+  background-color: #ffebee;
+  color: var(--error-color);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.error-message p {
+  margin-bottom: 1rem;
+}
+
+.error-message button {
+  background-color: var(--error-color);
+}
+
+.error-message button:hover {
+  background-color: #d32f2f;
+}
